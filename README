@@ -1,0 +1,21 @@
+Бот на основе базы директус и api simplify-bots
+Ссылка на бота: @SimplifyJob_bot
+
+Для запуска бота используется файл manage.py
+
+Для запуска потребуется python3
+
+Запуск на линукс:
+1) Создать виртуальное окружение командой: python3 -m venv venv
+2) Перейти в окружение: source venv/bin/activate
+3) Подгрузить все необходимые библиотеки: pip install -r requirements.txt --ignore-installed --no-cache-dir
+4) Запустить бота: python3 manage.py
+Общий порядок команд:
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt --ignore-installed --no-cache-dir
+python3 manage.py
+
+Запуск на Windows:
+1) Запустите файл make-virtualenv.bat для создания виртульного окружения и подгрузки необходимых библиотек
+2) Для запуск бота используйте файл launch-bot.bat
