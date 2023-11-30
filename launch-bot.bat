@@ -1,0 +1,1 @@
+venv\Scripts\Activate & py manage.py & PAUSE
